@@ -1,4 +1,4 @@
-> Here's a JavaScript function that takes an array of numbers and a target number, and returns the index of the target number in the array. It does not use indexOf.
+Here's a JavaScript function that takes an array of numbers and a target number, and returns the index of the target number in the array. It does not use indexOf.
 
 ```
 function findIndexOfNumber(arr, target) {
@@ -19,7 +19,7 @@ const index = findIndexOfNumber(numbers, targetNumber);
 console.log(index); // Output: 2
 ```
 
-> The findIndexOfNumber function iterates through the input array and checks if each element is equal to the target number. If it finds the target number, it returns the index. If it doesn't find the target number after iterating through the entire array, it returns -1 to indicate that the target number is not present in the array.
+The findIndexOfNumber function iterates through the input array and checks if each element is equal to the target number. If it finds the target number, it returns the index. If it doesn't find the target number after iterating through the entire array, it returns -1 to indicate that the target number is not present in the array.
 
 ---
 
@@ -39,7 +39,7 @@ function findIndexOfNumber(arr, target) {
 
 ---
 
-> And here's the refactored code using a map method:
+And here's the refactored code using a map method:
 
 ```
 function findIndexOfNumber(arr, target) {
