@@ -37,6 +37,8 @@ function findIndexOfNumber(arr, target) {
 }
 ```
 
+---
+
 And here's the refactored code using a map method:
 
 ```
